@@ -1,2 +1,2 @@
-192.168.8.148
+192.168.8.148 ansible_become_exe=/usr/bin/sudo.ws
 192.168.8.149
