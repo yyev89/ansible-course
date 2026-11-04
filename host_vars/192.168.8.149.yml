@@ -1,2 +1,4 @@
 apache_package: httpd
 apache_service: httpd
+passwd_auth: "yes"
+ssh_template_file: sshd_config_rocky.j2
