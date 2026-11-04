@@ -1,0 +1,6 @@
+- name: install mariadb package on db servers
+  tags: db,rocky
+  ansible.builtin.dnf:
+    name: mariadb
+    state: latest
+  when: ansible_distribution == "Rocky"
